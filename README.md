@@ -7,7 +7,7 @@ Preview
 Controls
 --------
 
-    left/right arrow jeys - move piece left or right
+    left/right arrow keys - move piece left or right
 
     x/z                   - rotate piece cw / ccw
 
