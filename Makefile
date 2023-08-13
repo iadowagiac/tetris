@@ -20,7 +20,7 @@ clean:
 
 dist: clean
 	mkdir -p ${PACKAGE}-${VERSION}
-	cp -Rf Makefile config.mk ${SRC} ${DATA} ${PACKAGE}-${VERSION}
+	cp -Rf Makefile config.mk ${SRCS} ${DATA} ${PACKAGE}-${VERSION}
 	tar -cf ${PACKAGE}-${VERSION}.tar ${PACKAGE}-${VERSION}
 	gzip ${PACKAGE}-${VERSION}.tar
 	rm -rf ${PACKAGE}-${VERSION}
